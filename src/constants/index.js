@@ -1,0 +1,22 @@
+const USER_TYPE = {
+	PATIENT: 'PATIENT',
+	ADMIN: 'ADMIN',
+	DOCTOR: 'DOCTOR'
+};
+
+const USER_STATUS = {
+	ACTIVE: 'ACTIVE',
+	INACTIVE: 'INACTIVE',
+	DELETED: 'DELETED'
+};
+
+const ADDRESS_STATUS = {
+	'ACTIVE': 'ACTIVE',
+	'DELETED': 'DELETED'
+};
+
+module.exports = {
+	USER_TYPE,
+	USER_STATUS,
+	ADDRESS_STATUS
+}
